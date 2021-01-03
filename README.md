@@ -3,11 +3,10 @@
 [![Python Version](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://python.org)
 [![Django Version](https://img.shields.io/badge/django-2.0-brightgreen.svg)](https://djangoproject.com)
 
-This is an example project to illustrate an implementation of multiple user types. In this Django app, teachers can create quizzes and students can sign up and take quizzes related to their interests.
+This is an Quiz app which created with Django Web Freamwork. This app is has two account type, Teacher and Student. Teachers can create new quiz and questions. These quizes automatically drops to students main page. and after solve. Points will send to teacher
 
-![Django School Screenshot](https://simpleisbetterthancomplex.com/media/2018/01/teacher-quiz.png)
-
-Read the blog post [How to Implement Multiple User Types with Django](https://simpleisbetterthancomplex.com/tutorial/2018/01/18/how-to-implement-multiple-user-types-with-django.html).
+![Quiz Django Screenshot](https://simpleisbetterthancomplex.com/media/2018/01/teacher-quiz.png)
+ 
 
 ## Running the Project Locally
 
@@ -35,7 +34,7 @@ Finally, run the development server:
 python manage.py runserver
 ```
 
-The project will be available at **127.0.0.1:8000**.
+The project will be available at **127.0.0.1:8008**.
 
 
 ## License
